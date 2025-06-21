@@ -1,0 +1,42 @@
+:root {
+    /* Colors */
+    --color-primary: #0059DC;       /* Azul primario */
+    --color-secondary: #F06915;     /* Naranja secundario */
+    --color-bg-light: #FFFFFF;      /* Blanco */
+    --color-bg-dark: #000000;       /* Negro */
+    --color-text: #2F2F2F;          /* Texto principal oscuro */
+    --color-text-alt: #B0B0B0;      /* Texto gris para footer o alternativo */
+
+    /* Typography */
+    --font-family-sans: 'Poppins', sans-serif;
+    --font-size-h1: 2rem;           /* 32px */
+    --font-size-h2: 1.5rem;         /* 24px */
+    --font-size-base: 1rem;         /* 16px */
+    --font-size-button: 0.875rem;   /* 14px */
+    --line-height-base: 1.5;
+
+    /* Spacing (multiples of 8px) */
+    --space-xxs: 4px;
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space-md: 24px;
+    --space-lg: 32px;
+    --space-xl: 48px;
+    --space-xxl: 64px;
+
+    /* Border radius */
+    --radius-small: 4px;
+    --radius-medium: 8px;
+    --radius-large: 16px;
+
+    /* Shadows */
+    --shadow-default: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* Breakpoints */
+    --breakpoint-mobile: 480px;
+    --breakpoint-tablet: 768px;
+    --breakpoint-desktop: 1024px;
+
+    /* Z-index */
+    --z-index-sticky: 1000;
+}
