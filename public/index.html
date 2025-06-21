@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="hero.title">Smart contracts for risk-free web development.</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/_variables.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+<header class="header">
+    <a href="#hero" class="header__logo">
+        <img src="images/Header/logo.png" alt="Tarket Logo" data-i18n-alt="header.logoAlt" />
+    </a>
+    <button class="header__toggle" aria-label="Open menu">&#9776;</button>
+    <nav class="header__nav">
+        <a href="#about" data-i18n="header.nav.aboutProduct">About the Product</a>
+        <a href="#professionals" data-i18n="header.nav.professionals">Professionals</a>
+        <a href="#developers" data-i18n="header.nav.developers">Developers</a>
+        <a href="#team" data-i18n="header.nav.aboutTeam">About the Team</a>
+        <button id="btn-es" class="lang-switch">ES</button>
+        <button id="btn-en" class="lang-switch active">EN</button>
+    </nav>
+</header>
+
+<section id="hero" class="hero">
+    <h1 class="hero__title" data-i18n="hero.title"></h1>
+    <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
+    <a href="#about" class="btn hero__cta" data-i18n="hero.cta">Know more</a>
+</section>
+
+<section id="about" class="about">
+    <div class="about__container">
+        <div class="about__left">
+            <img src="images/AboutUs/about-logo.png" class="about__logo" alt="Tarket Contracts" data-i18n-alt="about.logoAlt" />
+        </div>
+        <div class="about__right">
+            <p class="about__intro" data-i18n="about.intro"></p>
+        </div>
+    </div>
+
+    <h2 class="about__heading" data-i18n="about.heading"></h2>
+    <div class="about__features">
+        <div class="feature">
+            <img src="images/AboutUs/icon-1.png" alt="Review icon" data-i18n-alt="about.features.0.alt" />
+            <p data-i18n="about.features.0.desc"></p>
+        </div>
+        <div class="feature">
+            <img src="images/AboutUs/icon-2.png" alt="Payment icon" data-i18n-alt="about.features.1.alt" />
+            <p data-i18n="about.features.1.desc"></p>
+        </div>
+        <div class="feature">
+            <img src="images/AboutUs/icon-3.png" alt="Receipt icon" data-i18n-alt="about.features.2.alt" />
+            <p data-i18n="about.features.2.desc"></p>
+        </div>
+    </div>
+
+    <h3 class="about__video-title" data-i18n="about.videoTitle"></h3>
+    <div class="about__video"></div>
+</section>
+
+<section id="professionals" class="section-hero variant--professionals">
+    <h2 class="hero__title" data-i18n="professionals.title"></h2>
+    <p class="hero__subtitle" data-i18n="professionals.subtitle"></p>
+    <div class="hero__buttons">
+        <a href="https://play.google.com/store/apps/" class="btn btn--android">
+            <img src="images/Professionals/icon-android.png" alt="Android Icon" data-i18n-alt="professionals.androidAlt" />
+            <span data-i18n="professionals.android"></span>
+        </a>
+        <a href="https://apps.apple.com/bj/developer/apple/id284417353?mt=12" class="btn btn--ios">
+            <img src="images/Professionals/icon-apple.png" alt="Apple Icon" data-i18n-alt="professionals.iosAlt" />
+            <span data-i18n="professionals.ios"></span>
+        </a>
+    </div>
+</section>
+
+<section class="benefits benefits--professionals">
+    <h3 class="benefits__title" data-i18n="benefits.title"></h3>
+    <div class="benefits__grid">
+        <!-- Profesionales benefits -->
+        <article class="benefit">
+            <img src="images/Professionals/icon-track.png" alt="Track icon" />
+            <h4>Track your project anytime</h4>
+            <p>Use the mobile app to follow the status of your website in real time and stay in full control of your deliveries.</p>
+        </article>
+        <article class="benefit">
+            <img src="images/Professionals/icon-proof.png" alt="Proof icon" />
+            <h4>Receive proof of delivery automatically</h4>
+            <p>Each delivery generates a blockchain-issued digital ticket, giving you legal proof and peace of mind.</p>
+        </article>
+        <article class="benefit">
+            <img src="images/Professionals/icon-pay.png" alt="Pay icon" />
+            <h4>Get a website without upfront payments</h4>
+            <p>Pay only when the delivery is validated and meets your expectations.</p>
+        </article>
+    </div>
+</section>
+
+<section id="developers" class="section-hero variant--developers">
+    <h2 class="hero__title" data-i18n="developers.title"></h2>
+    <p class="hero__subtitle" data-i18n="developers.subtitle"></p>
+    <a href="https://contracts.tarket.site/" class="btn hero__cta">
+        <img src="images/Developers/icon-globe.png" alt="Globe Icon" data-i18n-alt="developers.globeAlt" />
+        <span data-i18n="developers.cta"></span>
+    </a>
+</section>
+
+<section class="benefits benefits--developers">
+    <h3 class="benefits__title" data-i18n="benefits.title"></h3>
+    <div class="benefits__grid">
+        <!-- Developers benefits -->
+        <article class="benefit">
+            <img src="images/Developers/icon-deliver.png" alt="Deliver icon" data-i18n-alt="benefits.items.0.alt" />
+            <h4 data-i18n="benefits.items.0.title"></h4>
+            <p data-i18n="benefits.items.0.desc"></p>
+        </article>
+        <article class="benefit">
+            <img src="images/Developers/icon-boost.png" alt="Boost icon" data-i18n-alt="benefits.items.1.alt" />
+            <h4 data-i18n="benefits.items.1.title"></h4>
+            <p data-i18n="benefits.items.1.desc"></p>
+        </article>
+        <article class="benefit">
+            <img src="images/Developers/icon-get-paid.png" alt="Get paid icon" data-i18n-alt="benefits.items.2.alt" />
+            <h4 data-i18n="benefits.items.2.title"></h4>
+            <p data-i18n="benefits.items.2.desc"></p>
+        </article>
+    </div>
+</section>
+
+<section id="team" class="team">
+    <h2 class="team__title" data-i18n="team.title"></h2>
+    <div class="team__grid">
+        <!-- 4 miembros -->
+        <figure class="team__member">
+            <img src="images/Team/team1.png" alt="César A. Castilla Pachas" />
+            <figcaption>Castilla Pachas Cesar Antonio<br/>202218735</figcaption>
+        </figure>
+        <figure class="team__member">
+            <img src="images/Team/team2.png" alt="Joaquín M. Cortés Casas" />
+            <figcaption>Cortés Casas Joaquín Marcelo<br/>202114545</figcaption>
+        </figure>
+        <figure class="team__member">
+            <img src="images/Team/team3.png" alt="Fernando J. Díaz Silva" />
+            <figcaption>Diaz Silva Fernando Josué<br/>202112722</figcaption>
+        </figure>
+        <figure class="team__member">
+            <img src="images/Team/team4.png" alt="Ramón A. Jorge Arévalo" />
+            <figcaption>Jorge Arévalo, Ramón Alejandro<br/>u20221D126</figcaption>
+        </figure>
+    </div>
+
+    <h3 class="team__video-title" data-i18n="team.videoTitle"></h3>
+    <div class="team__video"></div>
+</section>
+
+<footer class="footer">
+    <div class="footer__socials">
+        <a href="https://facebook.com"><img src="images/Footer/icon-facebook.png" alt="Facebook" data-i18n-alt="footer.social.facebookAlt" /></a>
+        <a href="https://instagram.com"><img src="images/Footer/icon-instagram.png" alt="Instagram" data-i18n-alt="footer.social.instagramAlt" /></a>
+        <a href="https://linkedin.com"><img src="images/Footer/icon-linkedin.png" alt="LinkedIn" data-i18n-alt="footer.social.linkedinAlt" /></a>
+    </div>
+    <p class="footer__contact"><span data-i18n="footer.contactLabel"></span> <a href="mailto:contact@tarket.org">contact@tarket.org</a></p>
+    <p class="footer__copy" data-i18n="footer.copy"></p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
